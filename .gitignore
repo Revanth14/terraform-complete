@@ -1,4 +1,4 @@
-# Ignore all .terraform directories (recursively)
+# Ignore all .terraform directories
 **/.terraform/
 
 # Ignore all .tfstate files
@@ -10,7 +10,7 @@
 **/*.tfcrash
 **/*.crash
 
-# Terraform variable files (if sensitive)
+# Terraform variable files
 **/*.tfvars
 **/*.tfvars.json
 
@@ -23,5 +23,5 @@
 # Ignore terraform state folder used by CLI workspaces
 **/terraform.tfstate.d/
 
-# MacOS junk (if applicable)
+# MacOS
 .DS_Store
