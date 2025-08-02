@@ -1,0 +1,27 @@
+# Ignore all .terraform directories (recursively)
+**/.terraform/
+
+# Ignore all .tfstate files
+**/*.tfstate
+**/*.tfstate.backup
+
+# Crash log files
+**/*.log
+**/*.tfcrash
+**/*.crash
+
+# Terraform variable files (if sensitive)
+**/*.tfvars
+**/*.tfvars.json
+
+# Plan files
+**/*.plan
+
+# Local CLI configuration
+**/.terraform.lock.hcl
+
+# Ignore terraform state folder used by CLI workspaces
+**/terraform.tfstate.d/
+
+# MacOS junk (if applicable)
+.DS_Store
